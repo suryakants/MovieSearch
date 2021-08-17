@@ -12,10 +12,17 @@ public struct MovieCellPaddingContant {
     static let posterImageHeight: CGFloat = 138
     static let posterImageWidth: CGFloat = 92
 }
+
 public struct MovieCellFontSizeContant{
     static let titleFontSize : CGFloat = 18.0
     static let dateFontSize: CGFloat =  15.0;
     static let overviewFontSize: CGFloat = 13.0;
+}
+
+public struct ReachabilityConstant {
+    static let networkReachability = -100
+    static let errorDomain = "com.suryakant.productList"
+    static let reachabilityChange = "ReachabilityChangedNotification"
 }
 
 

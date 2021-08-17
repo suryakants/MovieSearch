@@ -1,10 +1,3 @@
-//
-//  MovieViewModel.swift
-//  MovieSearch
-//
-//  Created by Suryakant on 17/08/21.
-//
-
 import Foundation
 
 struct MovieViewModel {

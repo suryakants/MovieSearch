@@ -95,6 +95,14 @@ class NetworkManager: NSObject {
 extension NetworkManager {
     
     func search(for name: String, page: Int = 1, completionHandler: @escaping CompletionHandler){
+        
+        //check network reachablity, if network not available, call completionHandler with proper error & return
+        //if device is not connected with network.
+        if !ReachabilityManager.sharedInstance.isNetworkWorking {
+            completionHandler(.failure(.noNetwork))
+            return
+        }
+
         var queries = [URLQueryItem]()
         queries.append(URLQueryItem(name: "s", value: name))
         queries.append(URLQueryItem(name: "type", value: "movie"))
@@ -118,6 +126,14 @@ extension NetworkManager {
         }
     
     func fetchMovie(with imdbID: String, completionHandler: @escaping CompletionHandler){
+        
+        //check network reachablity, if network not available, call completionHandler with proper error & return
+        //if device is not connected with network.
+        if !ReachabilityManager.sharedInstance.isNetworkWorking {
+            completionHandler(.failure(.noNetwork))
+            return
+        }
+
         var queries = [URLQueryItem]()
         queries.append(URLQueryItem(name: "i", value: imdbID))
         queries.append(URLQueryItem(name: "r", value: "json"))

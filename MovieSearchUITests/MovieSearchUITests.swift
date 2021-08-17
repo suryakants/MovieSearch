@@ -1,10 +1,3 @@
-//
-//  MovieSearchUITests.swift
-//  MovieSearchUITests
-//
-//  Created by Suryakant on 17/08/21.
-//
-
 import XCTest
 
 class MovieSearchUITests: XCTestCase {

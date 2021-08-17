@@ -1,10 +1,3 @@
-//
-//  MovieDetailViewController.swift
-//  MovieSearch
-//
-//  Created by Suryakant on 17/08/21.
-//
-
 import UIKit
 
 class MovieDetailViewController: UITableViewController {

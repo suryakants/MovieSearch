@@ -35,6 +35,8 @@
 		5274960B26CC31590002860A /* JSONParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274960A26CC31590002860A /* JSONParserTests.swift */; };
 		5274960D26CC34C90002860A /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274960C26CC34C90002860A /* MockURLSession.swift */; };
 		5274960F26CC34E80002860A /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274960E26CC34E80002860A /* NetworkManagerTests.swift */; };
+		5274961326CC3CC60002860A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274961126CC3CC60002860A /* Reachability.swift */; };
+		5274961426CC3CC60002860A /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274961226CC3CC60002860A /* ReachabilityManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		5274960A26CC31590002860A /* JSONParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParserTests.swift; sourceTree = "<group>"; };
 		5274960C26CC34C90002860A /* MockURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
 		5274960E26CC34E80002860A /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		5274961126CC3CC60002860A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5274961226CC3CC60002860A /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 		523DCABA26CB9BEC003AB4F4 /* MovieSearch */ = {
 			isa = PBXGroup;
 			children = (
+				5274961026CC3C880002860A /* Reachability */,
 				527495FE26CC27370002860A /* Localization */,
 				527495EF26CBDBD10002860A /* CustomView */,
 				527495E526CBC9670002860A /* Parser */,
@@ -300,6 +305,15 @@
 			path = Parser;
 			sourceTree = "<group>";
 		};
+		5274961026CC3C880002860A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5274961126CC3CC60002860A /* Reachability.swift */,
+				5274961226CC3CC60002860A /* ReachabilityManager.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -443,8 +457,10 @@
 				527495FB26CC15A80002860A /* MovieDetailViewModel.swift in Sources */,
 				527495DA26CBB5010002860A /* URLSessionExtension.swift in Sources */,
 				527495E426CBBDDF0002860A /* UISearchBarExtension.swift in Sources */,
+				5274961426CC3CC60002860A /* ReachabilityManager.swift in Sources */,
 				527495F526CBEB0E0002860A /* MovieCell.swift in Sources */,
 				527495D726CBB3C60002860A /* NetworkManager.swift in Sources */,
+				5274961326CC3CC60002860A /* Reachability.swift in Sources */,
 				527495F726CBEC140002860A /* CachedImageView.swift in Sources */,
 				523DCABC26CB9BEC003AB4F4 /* AppDelegate.swift in Sources */,
 				527495DF26CBB91A0002860A /* EndPoints.swift in Sources */,

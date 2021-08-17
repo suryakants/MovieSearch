@@ -1,0 +1,14 @@
+"searchMovie.searchBar.placeHolder" = "Search Movie";
+"SearchMovie.Message" = "Type a movie name for your choice";
+"SearchMovie.navBar.title" = "Open Movie DB";
+"SearchMovie.noMovie.found.error.mesaage" = "Could not find anything!";
+
+
+"movie.not.exist.messgae" = "Movie does not exist!";
+"IMDB.text" = "IMDB\n";
+"metascore.text" = "Metascore\n";
+"director.text" = "Director: ";
+"writer.text" = "Writer(s): ";
+"genre.text" = "Genre: ";
+"plot.text" = "Plot: ";
+"Movie.details.navBar.title" = "Movie Details";

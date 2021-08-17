@@ -4,7 +4,7 @@ Simple iOS application, which let user search movie using Open Movie Database Se
 ## Installation
 This project best works with following configurations - 
 
-- Add your API key at NetworkManager class
+- Add your API key at NetworkManager class and run
 
 ##### Xcode
 - Xcode 12.5

@@ -16,7 +16,7 @@ class MovieDetailViewModelCoordinator {
         networkManager.fetchMovie(with: id) { result in
             switch result {
             case .success(let responseData):
-                if let movieModel: SearchResult.Movie = JSONParser.decodeJson(from: responseData) {
+                if let movieModel: Movie = JSONParser.decodeJson(from: responseData) {
                     self.movieDetailViewModel = MovieDetailViewModel(movie: movieModel)
                 }
                 else {

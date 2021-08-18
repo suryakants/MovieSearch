@@ -1,6 +1,6 @@
-"searchMovie.searchBar.placeHolder" = "Search Movie";
+"searchMovie.searchBar.placeHolder" = "Search";
 "SearchMovie.Message" = "Type a movie name for your choice";
-"SearchMovie.navBar.title" = "Open Movie DB";
+"SearchMovie.navBar.title" = "Search Movie";
 "SearchMovie.noMovie.found.error.mesaage" = "Could not find anything!";
 
 

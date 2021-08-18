@@ -2,9 +2,9 @@ import Foundation
 
 struct MovieDetailViewModel {
     
-    let movie: SearchResult.Movie
+    let movie: Movie
     
-    init(movie: SearchResult.Movie) {
+    init(movie: Movie) {
         self.movie = movie
     }
     

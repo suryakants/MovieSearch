@@ -21,7 +21,7 @@ class NetworkManager: NSObject {
             static let accept = "Accept"
             static let apiKey = "apikey"
         }
-        static let apiKey = "6c288424"
+        static let apiKey = "YOURKEY"
     }
     
     //An NSCach object to cache images, if necessary

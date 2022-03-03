@@ -4,7 +4,6 @@ Simple iOS application, which let user search movie using Open Movie Database Se
 - Simple app to seach movie from Open Movie Database Search
 - Dark Mode support
 
-
 ## Installation
 This project best works with following configurations - 
 
